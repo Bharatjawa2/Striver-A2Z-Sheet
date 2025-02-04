@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Solution {
     public static void main(String[] args) {
-        int[] arr = {10, 9, 2, 3, 5, 6, 2, 45, 9, 101};
+        int[] arr = {0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15};
         List<Integer> lis = LIC(arr);
         System.out.println("Length of LIS: " + lis.size());
         System.out.println("LIS Sequence: " + lis);

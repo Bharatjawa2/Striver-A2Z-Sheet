@@ -13,5 +13,5 @@ class Solution {
             min=Math.min(min,prices[i]);
         }
         return profit;
-    }
+    } 
 }

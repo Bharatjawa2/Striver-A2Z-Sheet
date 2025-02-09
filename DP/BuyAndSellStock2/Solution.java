@@ -6,7 +6,7 @@ class Solution {
     }
     public static int maxProfit(int[] prices) {
         int n=prices.length;
-        // Integer[][] dp=new Integer[n][2];
+        // Integer[][] dp=new Integer[n][2]; 
         int[][] dp=new int[n+1][2];
         dp[n][0]=0;
         dp[n][1]=0;

@@ -19,6 +19,12 @@ public class Solution {
                 dp[i][j+1]=Math.max(not,take);
             }
         }
+        for(int i=0;i<n;i++){
+            for(int j=0;j<=n;j++){
+                System.out.print(dp[i][j]+" ");
+            }
+            System.out.println();
+        }
         return dp[0][0];
         // return solve(0,-1,n,arr,dp);
     }
